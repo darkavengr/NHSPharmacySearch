@@ -1,0 +1,49 @@
+﻿@page "NameOrPostCode"
+@model NHSPharmacySearch.Pages.ResultsModel
+@{
+}
+
+ <div class="resultoutput">
+
+    <table class="resulttable">
+      <tr> <th>Organisation code</th> </tr>
+      <tr> <th>Name</th> </tr>
+      <tr> <th>Phone</th> </tr>
+      <tr> <th>Fax</th> </tr>
+      <tr> <th>Street</th> </tr>
+      <tr> <th>Town </tr>
+      <tr> <th>City </tr>
+      <tr> <th>Postcode </tr>
+      <tr> <th>Service type </tr>
+      <tr> <th>Services </tr>
+      <tr> <th>Opening times </tr>
+
+       @foreach(var result in @Model.Results) {
+         <tr> <td> @result.organisationCode </td> </tr>
+         <tr> <td> @result.name </td> </tr>
+         <tr> <td> @result.phone </td> </tr>
+         <tr> <td> @result.fax </td> </tr>
+         <tr> <td> @result.street </td> </tr>
+         <tr> <td> @result.locality </td> </tr>
+         <tr> <td> @result.town </td> </tr>
+         <tr> <td> @result.administrative </td> </tr>
+         <tr> <td> @result.postcode </td> </tr>
+
+         <tr> <td>
+           @foreach (var servicesresult in @result.services)  {
+                @servicesresult
+            }
+         </td> </tr>
+
+         <tr> <td>
+         @foreach (var openingsresult in @result.openings)  {
+           @openingsresult
+         }
+        </td> </tr>
+
+        }
+     </table>
+ </div>
+
+
+
