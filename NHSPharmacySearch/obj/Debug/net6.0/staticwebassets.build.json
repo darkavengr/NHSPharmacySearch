@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oc4BjrBJp5cY7b2y81oXbMaN6dif70h47QDUc0hGRWI=",
+  "Hash": "NCUkFxqJZhSAkIPhLwwjUHHK00m6765H74bTheAqpQY=",
   "Source": "NHSPharmacySearch",
   "BasePath": "_content/NHSPharmacySearch",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\matt\\source\\repos\\NHSPharmacySearch\\NHSPharmacySearch\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NHSPharmacySearch.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\matt\\source\\repos\\NHSPharmacySearch\\NHSPharmacySearch\\wwwroot\\css\\media.css",
+      "SourceId": "NHSPharmacySearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matt\\source\\repos\\NHSPharmacySearch\\NHSPharmacySearch\\wwwroot\\",
+      "BasePath": "_content/NHSPharmacySearch",
+      "RelativePath": "css/media.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\media.css"
     },
     {
       "Identity": "C:\\Users\\matt\\source\\repos\\NHSPharmacySearch\\NHSPharmacySearch\\wwwroot\\css\\site.css",
@@ -1069,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\matt\\source\\repos\\NHSPharmacySearch\\NHSPharmacySearch\\wwwroot\\nhslogo.jpg",
+      "SourceId": "NHSPharmacySearch",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matt\\source\\repos\\NHSPharmacySearch\\NHSPharmacySearch\\wwwroot\\",
+      "BasePath": "_content/NHSPharmacySearch",
+      "RelativePath": "nhslogo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\nhslogo.jpg"
     }
   ]
 }

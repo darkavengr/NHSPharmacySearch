@@ -1,31 +1,16 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Search for NHS services";
 }
 
-<form method="post">
- <label> Name </label>
-                <input type="text" asp-for="@Model.Searchparameters.OrganisationName" required>
- </p>
- 
- <label> Postcode </label>
-                <input type="text" asp-for="@Model.Searchparameters.Postcode">
- </p>
+<form method="post" class="formclass">
+ <label> Search for organisations in the NHS </label>
+                <input type="text" asp-for="@Model.Searchparameters.search">
+ <p>
+  
 
- <label> Location (Town or city) </label>
-                <input type="text" asp-for="@Model.Searchparameters.location" required>
- </p>
- 
- <label> Type of service </label>
-                <select name="TypeOfService" id="TypeOfService">
-                     <option value="Pharmacy"> ViewData[@Model.Searchparameters.serviceType] </option>
-                     <option value="Applicance"> Appliance</option>
-
-                </select>
- </p>
- 
- <input type="submit" value="Update" asp-page="/Results"  asp-route-Id=@Model.Searchparameters />
+ <input type="submit" value="Search" asp-page="/Results"  asp-route-Id=@Model.Searchparameters />
 
 </form>
 

@@ -2,19 +2,15 @@
 {
     public class Result
     {
-        public string organisationCode;
-        public string name;
-        public string phone;
-        public string fax;
-        public string street;
-        public string locality;
-        public string town;
-        public string administrative;
-        public string postcode;
-        public Boolean epstring;
-        public string serviceType;     
-        public List<NHSService> services;
-        public List<OpeningTimes> openings;
+        public string OrganisationID;
+        public string OrganisationName;
+        public string URL;
+        public string Address1;
+        public string Address2;
+        public string Address3;
+        public string City;
+        public string County;
+        public string Postcode;
     }
 
 }

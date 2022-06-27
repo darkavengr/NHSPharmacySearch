@@ -2,17 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <title>@ViewData["Title"] - NHS ervices search</title>    
+    <link rel="stylesheet" href="~/css/site.css"  />  
+    <link rel="stylesheet" href="~/css/media.css" />  
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NHS Pharmacy Search</title>    
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />  
 </head>
 
     <header>
-        <img src="/NHSPharmacySearch.jpg" class="logo" />
 
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            
+        <div class="bannerimage">
+            <img src="/NHSLogo.jpg" />
+        </div>
 
+        <a href="" class="burgermenu"> ☰ </a>
+	
+        <nav>
+           <ul class="navmenu">	                  
+                <li class="navmenuitem"> 
+					<div class="dropdownmenu"> <a href="/About"> About </a> </div> 
+				 </li>	
+
+                <li class="navmenuitem"> 
+					<div class="dropdownmenu"> <a href="/Privacy"> Privacy </a> </div> 
+				 </li>	
+
+            </ul>
+    
     </header>
     <div class="container">
         <main role="main" class="pb-3">

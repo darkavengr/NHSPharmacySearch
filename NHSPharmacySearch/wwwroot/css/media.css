@@ -1,0 +1,124 @@
+
+/* tablets */
+@media only screen and (min-width: 482px) and (max-width: 789px) {
+
+    html {
+        margin: 0;
+        height: 100vw;
+        width: 100vw;
+    }
+
+    .bannerimage {
+        height: 1%;
+        display: inline-block;
+    }
+
+        .bannerimage img {
+            height: auto;
+            width: 15%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+    .navmenuitem:hover {
+        height: 100%;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #ffebed;
+        display: inline;
+    }
+
+    .navmenu {
+        display: none;
+        padding-right: 0;
+    }
+
+    .burgermenu {
+        color: #123;
+        display: block;
+    }
+
+    .navmenu {
+        display: none;
+    }
+
+    .burgermenu:hover + .navmenu {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        display: block;
+    }
+
+    .navmenu:hover {
+        display: block;
+    }
+
+    .navmenu li {
+        padding-bottom: 0;
+    }
+
+    .navmenu a {
+        border-left: 0;
+        color: white;
+    }
+
+
+    .dropdownmenuitems li:hover, dropdownmenu ul:hover {
+    }
+
+    .navmenuitem {
+        display: block;
+    }
+
+    .navmenu_selected {
+        padding: 0;
+    }
+
+
+    .dropdownmenu {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        overflow: hidden;
+        width: 100%;
+        float: none;
+        z-index: 1;
+    }
+
+    .dropdownmenuitems, .dropdownmenuitems a {
+        list-style: none;
+        color: red;
+        text-decoration: none;
+        z-index: 1;
+        display: block;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .dropdownmenu:hover .dropdownmenuitems {
+        display: block;
+        background-color: #fd8893;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .navmenuitem a {
+        list-style: none;
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .navmenuitem:hover {
+        background-color: #fd8893;
+    }
+
+}
